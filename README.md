@@ -1,79 +1,32 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# ToDo App with React Native
 
-# Getting Started
+This is a simple and elegant To-Do application built with React Native. The app allows users to manage their tasks by adding, updating, deleting, and marking them as completed. With smooth navigation and an intuitive user interface, this app offers a seamless task management experience.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# Features:
 
-## Step 1: Start the Metro Server
+- Add To-Do: Users can create new tasks with a simple input.
+- Update To-Do: Users can update any task using an intuitive prompt or modal interface.
+- Delete To-Do: Easily remove tasks from the list with the delete button.
+- Mark as Completed: Tasks can be marked as completed with a simple icon toggle.
+- Persistent Storage: All tasks are stored locally on the device using AsyncStorage, ensuring that they are saved even after the app is closed.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+# Technologies Used:
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- React Native: The core framework for building cross-platform mobile applications.
+- React: For building reusable UI components.
+- AsyncStorage: Used for local storage to persist tasks.
+- React Navigation: For smooth screen transitions and navigation flow.
+- Iconsax: Icons used for task actions (add, delete, update, complete).
+- Lottie Animations: To enhance user engagement with smooth animations.
+- Linear Gradient: Adds gradient effects to backgrounds and buttons for a modern UI.
+- UUID: Generates unique IDs for each To-Do item.
 
-```bash
-# using npm
-npm start
+# Gif
 
-# OR using Yarn
-yarn start
-```
+![](/src/assets/asyncTODO.gif)
 
-## Step 2: Start your Application
+# How to Run the App:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- Clone the repository.
+- Run npm install or yarn install to install the dependencies.
+- Use npx react-native run-android or npx react-native run-ios to start the app.
